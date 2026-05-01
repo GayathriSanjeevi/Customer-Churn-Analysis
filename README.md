@@ -12,7 +12,7 @@ Customer churn is a critical challenge for subscription-based businesses, direct
 
 ## Project Workflow
 
-### Data Preparation
+### 1. Data Preparation
 - Cleaned missing and inconsistent values  
 - Converted data types (e.g., TotalCharges)  
 - Created derived features:
@@ -34,7 +34,8 @@ Customer churn is a critical challenge for subscription-based businesses, direct
   - Churn by tenure group   
 
 ### 4. Machine Learning
-- Built classification models using Logistic Regression, Decision Tree and Random Forest to predict churn  
+- Built classification models using Logistic Regression, Decision Tree and Random Forest to predict churn
+- Evaluated the models based on confusion matrix and classification report  
 - Applied:
   - SMOTE for class imbalance  
   - Hyperparameter tuning  
